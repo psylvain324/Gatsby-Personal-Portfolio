@@ -236,7 +236,7 @@ const Elements = props => (
                   </a>
                 </li>
               </ul>
-            </div>
+            </div> 
             <div className="col-3 col-6-medium col-12-xsmall">
               <ul className="actions stacked">
                 <li>

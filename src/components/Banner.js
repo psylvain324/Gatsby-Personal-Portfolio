@@ -6,9 +6,9 @@ const Banner = props => (
   <section id="banner">
     <div className="content">
       <header>
-        <h2>The future has landed</h2>
+        <h2>Phillip Sylvain - Web Developer/Designer</h2>
         <p>
-          And there are no hoverboards or flying cars.
+          Asp.Net | Angular | Java Spring Boot
           <br />
           Just apps. Lots of mother flipping apps.
         </p>

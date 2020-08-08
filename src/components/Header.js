@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import MobileMenu from './MobileMenu'
 
-const timeoutLength = 300
+const timeoutLength = 50
 
 class Header extends React.Component {
   constructor(props) {
