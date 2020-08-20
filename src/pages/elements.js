@@ -10,8 +10,8 @@ import pic08 from '../assets/images/pic08.jpg'
 const Elements = props => (
   <Layout>
     <Helmet>
-      <title>Elements - Landed by HTML5 UP</title>
-      <meta name="description" content="Elements Page" />
+      <title>Phillip Sylvain - Technical Skills</title>
+      <meta name="description" content="Skills Page" />
     </Helmet>
 
     <div id="main" className="wrapper style1">
@@ -78,9 +78,9 @@ const Elements = props => (
 
           <h4>Preformatted</h4>
           <pre>
-            <code>
+            {/* <code>
               i = 0; print 'It took ' + 5 + ' iterations to sort the deck.';
-            </code>
+            </code> */}
           </pre>
         </section>
 

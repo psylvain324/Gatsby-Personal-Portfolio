@@ -1,21 +1,23 @@
 import React from 'react'
-import pic01 from '../assets/images/pic01.jpg'
+import Img from "gatsby-image"
+import KL from '../assets/images/Custom/kuala lumpur-1.jpg'
 import { Link as ScrollLink } from 'react-scroll'
 
 const Banner = props => (
   <section id="banner">
     <div className="content">
       <header>
-        <h2>Phillip Sylvain - Web Developer/Designer</h2>
+        <h2>Phillip Sylvain</h2> <br></br>
+        <h2>Web Developer/Designer</h2>
         <p>
           Asp.Net | Angular | Java Spring Boot
           <br />
-          Just apps. Lots of mother flipping apps.
+          I code, I write, I design.
         </p>
       </header>
-      <span className="image">
-        <img src={pic01} alt="intro" />
-      </span>
+      <div className="image">
+      <Img fixed={KL} />
+      </div>
     </div>
     <ScrollLink
       to="one"

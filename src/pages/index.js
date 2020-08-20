@@ -14,10 +14,10 @@ class Home extends React.Component {
       <Layout location="/">
         <Helmet
           htmlAttributes={{ lang: 'en' }}
-          title="Gatsby Starter - Landed"
+          title="Phillip Sylvain - Personal Portfolio"
           meta={[
-            { name: 'description', content: 'Landed Gatsby Starter' },
-            { name: 'keywords', content: 'sample, something' },
+            { name: 'description', content: 'Phillip Sylvain - Personal Portfolio' },
+            { name: 'keywords', content: 'portfolio, resume, web, developer, designer, gatsby, react, javascript, typescript, angular, spring, java, asp.net, c#' },
           ]}
         ></Helmet>
         <Banner />
