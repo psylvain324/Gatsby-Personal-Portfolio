@@ -1,5 +1,6 @@
+/* eslint-disable no-unused-vars */
 import React from 'react'
-import pic03 from '../assets/images/pic03.jpg'
+import SGPic from '../assets/images/singapore-1.jpeg'
 import { Link as ScrollLink } from 'react-scroll'
 import Fade from 'react-reveal/Fade'
 
@@ -7,10 +8,10 @@ const Two = props => (
   <section
     id="two"
     className="spotlight style2 right inactive"
-    style={{ backgroundImage: `url(${pic03})` }}
+    style={{ backgroundImage: `url(${SGPic})` }}
   >
     <span className="image fit main">
-      <img src={pic03} alt="" />
+      <img src={SGPic} alt="" />
     </span>
     <Fade right big>
       <div className="content">

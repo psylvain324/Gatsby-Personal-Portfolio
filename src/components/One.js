@@ -1,5 +1,6 @@
+/* eslint-disable no-unused-vars */
 import React from 'react'
-import pic02 from '../assets/images/pic02.jpg'
+import KLPic from '../assets/images/kuala lumpur-1.jpg'
 import { Link as ScrollLink } from 'react-scroll'
 import Fade from 'react-reveal/Fade'
 
@@ -7,10 +8,10 @@ const One = props => (
   <section
     id="one"
     className="spotlight style1 bottom inactive"
-    style={{ backgroundImage: `url(${pic02})` }}
+    style={{ backgroundImage: `url(${KLPic})` }}
   >
     <span className="image fit main">
-      <img src={pic02} alt="" />
+      <img src={KLPic} alt="" />
     </span>
     <Fade bottom big>
       <div className="content">
@@ -20,26 +21,29 @@ const One = props => (
               <header>
                 <h2></h2>
                 <p>
-                  Coding in Angular & Java Spring Boot
+                  Coding in Asp.NET, Angular & Java Spring Boot
                 </p>
               </header>
             </div>
             <div className="col-4 col-12-medium">
               <p>
-                Feugiat accumsan lorem eu ac lorem amet sed accumsan donec.
-                Blandit orci porttitor semper. Arcu phasellus tortor enim mi
-                nisi praesent dolor adipiscing. Integer mi sed nascetur cep
-                aliquet augue varius tempus lobortis porttitor accumsan
-                consequat adipiscing lorem dolor.
+                The majority of my career I have worked in Asp.NET
+                with SQL databases. I was originally educated and 
+                trained in this technology and it is still amongst
+                my favorite technologies to implement to this day. I have
+                kept up to date with Asp.NET Core and love the changes
+                that have come and are still coming down the pipe.
               </p>
             </div>
             <div className="col-4 col-12-medium">
               <p>
-                Morbi enim nascetur et placerat lorem sed iaculis neque ante
-                adipiscing adipiscing metus massa. Blandit orci porttitor
-                semper. Arcu phasellus tortor enim mi mi nisi praesent
-                adipiscing. Integer mi sed nascetur cep aliquet augue varius
-                tempus. Feugiat lorem ipsum dolor nullam.
+                More recently I have worked in the Java Spring Boot
+                and Angular space. I worked abroad in Malaysia - which was 
+                an amazing experience. I have continued to develop my existing
+                skillset while branching into the Javascript 
+                world with Angular and React. This site was written
+                in React utilizing the Gatsby framework and GraphQl for
+                page queries and SEO data. 
               </p>
             </div>
           </div>

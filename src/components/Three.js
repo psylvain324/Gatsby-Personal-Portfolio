@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from 'react'
 import pic04 from '../assets/images/pic04.jpg'
 import { Link as ScrollLink } from 'react-scroll'

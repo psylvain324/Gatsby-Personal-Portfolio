@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 import '../assets/scss/main.scss'

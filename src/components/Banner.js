@@ -1,24 +1,39 @@
+/* eslint-disable no-unused-vars */
 import React from 'react'
 import Img from "gatsby-image"
-import KL from '../assets/images/Custom/kuala lumpur-1.jpg'
+import BannerPic from '../assets/images/IMG_2104.jpg'
 import { Link as ScrollLink } from 'react-scroll'
+import TitleStyle from '../assets/css/title.css'
+import PseudoStyle from '../assets/css/pseudo.css'
 
 const Banner = props => (
   <section id="banner">
     <div className="content">
-      <header>
-        <h2>Phillip Sylvain</h2> <br></br>
-        <h2>Web Developer/Designer</h2>
-        <p>
-          Asp.Net | Angular | Java Spring Boot
-          <br />
-          I code, I write, I design.
-        </p>
-      </header>
-      <div className="image">
-      <Img fixed={KL} />
+        <header>
+          <div className="custom-banner-body">
+            <div className="custom-banner">
+              <h1>Phillip Sylvain</h1>
+            </div>
+          </div>
+          <div className="pseudo-body">
+            <div className="home-title">
+              <h2 className="pseudo-span">Web Developer/Designer</h2>
+              <span className="pseudo-span">Asp.Net | Angular | Java/Kotlin Spring Boot</span>
+              <span className="pseudo-span">Coder, Traveler, Writer</span>
+            </div>
+          </div>
+          {/* <h2>Web Developer/Designer</h2>
+            <p>
+              Asp.Net | Angular | Java/Kotlin Spring Boot
+            </p>
+            <p>
+              Coder, Traveler, Writer
+            </p> */}
+        </header>
+      <div>
+        <Img fixed={BannerPic} />
       </div>
-    </div>
+  </div>
     <ScrollLink
       to="one"
       className="goto-next"
