@@ -68,6 +68,7 @@ module.exports = {
   plugins: [
     'react-vertical-timeline-component',
     '@material-ui/core',
+    'gatsby-plugin-sass',
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,

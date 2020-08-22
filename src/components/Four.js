@@ -17,7 +17,7 @@ const Four = props => (
           <div className="row gtr-uniform">
             <section className="col-4 col-6-medium col-12-xsmall">
               <span className="icon solid alt major fa-chart-area"></span>
-              <h3>Ipsum sed commodo</h3>
+              <h3>C# ASP.NET</h3>
               <p>
                 Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit
                 orci porttitor.
@@ -25,7 +25,7 @@ const Four = props => (
             </section>
             <section className="col-4 col-6-medium col-12-xsmall">
               <span className="icon solid alt major fa-comment"></span>
-              <h3>Eleifend lorem ornare</h3>
+              <h3>Java Spring Boot</h3>
               <p>
                 Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit
                 orci porttitor.
@@ -33,7 +33,7 @@ const Four = props => (
             </section>
             <section className="col-4 col-6-medium col-12-xsmall">
               <span className="icon solid alt major fa-flask"></span>
-              <h3>Cubilia cep lobortis</h3>
+              <h3>Angular</h3>
               <p>
                 Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit
                 orci porttitor.
@@ -41,7 +41,7 @@ const Four = props => (
             </section>
             <section className="col-4 col-6-medium col-12-xsmall">
               <span className="icon solid alt major fa-paper-plane"></span>
-              <h3>Non semper interdum</h3>
+              <h3>SQL</h3>
               <p>
                 Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit
                 orci porttitor.
@@ -49,7 +49,7 @@ const Four = props => (
             </section>
             <section className="col-4 col-6-medium col-12-xsmall">
               <span className="icon solid alt major fa-file"></span>
-              <h3>Odio laoreet accumsan</h3>
+              <h3>Javascript</h3>
               <p>
                 Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit
                 orci porttitor.
@@ -57,7 +57,7 @@ const Four = props => (
             </section>
             <section className="col-4 col-6-medium col-12-xsmall">
               <span className="icon solid alt major fa-lock"></span>
-              <h3>Massa arcu accumsan</h3>
+              <h3>React</h3>
               <p>
                 Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit
                 orci porttitor.
@@ -69,7 +69,7 @@ const Four = props => (
           <ul className="actions special">
             <li>
               <a href="/" className="button">
-                Magna sed feugiat
+                Contact Me
               </a>
             </li>
           </ul>

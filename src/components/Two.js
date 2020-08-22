@@ -40,7 +40,7 @@ const Two = props => (
       activeClass="active"
       smooth={true}
       offset={50}
-      duration={1500}
+      duration={1000}
       spy={true}
     >
       Next

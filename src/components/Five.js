@@ -4,11 +4,11 @@ import Fade from 'react-reveal/Fade'
 
 const Five = props => (
   <section id="five" className="wrapper style2 special fade inactive">
-    <Fade duration={2500}>
+    <Fade duration={1500}>
       <div className="container">
         <header>
-          <h2>Magna faucibus lorem diam</h2>
-          <p>Ante metus praesent faucibus ante integer id accumsan eleifend</p>
+          <h2>Monthly Newsletter</h2>
+          <p>Sign up for monthly updates!</p>
         </header>
         <form method="post" action="#" className="cta">
           <div className="row gtr-uniform gtr-50">

@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import KLPic from '../assets/images/kuala lumpur-1.jpg'
+import KLPic from '../assets/images/Petronas.jpg'
+import ProfilePic from '../assets/images/hnet.com-image.ico'
 import { Link as ScrollLink } from 'react-scroll'
 import Fade from 'react-reveal/Fade'
 
@@ -19,20 +20,26 @@ const One = props => (
           <div className="row">
             <div className="col-4 col-12-medium">
               <header>
-                <h2></h2>
                 <p>
-                  Coding in Asp.NET, Angular & Java Spring Boot
+                  Career Overview
                 </p>
+                {/* <a className="photo">
+                  <h1 className="portrait-frame">Phillip Sylvain</h1> */}
+                    <img src={ProfilePic} alt="" />
+                    {/* <div className="glow-wrap">
+                      <i className="glow"></i>
+                    </div>
+                </a> */}
               </header>
             </div>
             <div className="col-4 col-12-medium">
               <p>
-                The majority of my career I have worked in Asp.NET
-                with SQL databases. I was originally educated and 
+                The majority of my career I have worked in ASP.NET
+                in C# with SQL databases. I was originally educated and 
                 trained in this technology and it is still amongst
                 my favorite technologies to implement to this day. I have
                 kept up to date with Asp.NET Core and love the changes
-                that have come and are still coming down the pipe.
+                that have come and in the upcoming framework releases.
               </p>
             </div>
             <div className="col-4 col-12-medium">
@@ -56,7 +63,7 @@ const One = props => (
       activeClass="active"
       smooth={true}
       offset={50}
-      duration={1500}
+      duration={1000}
       spy={true}
     >
       Next
