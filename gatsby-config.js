@@ -2,7 +2,7 @@
 module.exports = {
   //pathPrefix: `/mygatsby`,
   siteMetadata: {
-    title: 'Portfolio',
+    title: 'Phillip Sylvain - Portfolio',
     author: 'Phillip Sylvain',
     description: 'A Portfolio & Blog for Phillip Sylvain',
     menuLinks: [
@@ -26,28 +26,28 @@ module.exports = {
             name: 'No Sidebar',
             link: '/no-sidebar',
           },
-          {
-            name: 'SubMenu',
-            link: '#',
-            items: [
-              {
-                name: 'Option 1',
-                link: '#',
-              },
-              {
-                name: 'Option 2',
-                link: '#',
-              },
-              {
-                name: 'Option 3',
-                link: '#',
-              },
-              {
-                name: 'Option 4',
-                link: '#',
-              },
-            ],
-          },
+          // {
+          //   name: 'SubMenu',
+          //   link: '#',
+          //   items: [
+          //     {
+          //       name: 'Option 1',
+          //       link: '#',
+          //     },
+          //     {
+          //       name: 'Option 2',
+          //       link: '#',
+          //     },
+          //     {
+          //       name: 'Option 3',
+          //       link: '#',
+          //     },
+          //     {
+          //       name: 'Option 4',
+          //       link: '#',
+          //     },
+          //   ],
+          // },
         ],
       },
       {
@@ -59,15 +59,19 @@ module.exports = {
         link: '/resume',
       },
       {
-        name: 'Sign Up',
-        link: '#',
-        cl: 'button primary',
+        name: 'Blog',
+        link: '/blog',
       },
+      // {
+      //   name: 'Sign Up',
+      //   link: '#',
+      //   cl: 'button primary',
+      // },
     ],
   },
   plugins: [
-    'react-vertical-timeline-component',
     '@material-ui/core',
+    'react-vertical-timeline-component',
     'gatsby-plugin-sass',
     'gatsby-plugin-react-helmet',
     {

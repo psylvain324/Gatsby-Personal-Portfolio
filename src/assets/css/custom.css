@@ -19,19 +19,15 @@
 @supports (-webkit-background-clip: text) {
 	h1 {
 		color: transparent;
-		background: linear-gradient(7deg, #F44336 50%, #29b6f6 0);
+		background: linear-gradient(7deg, #F44336 50%, #FF5722 0);
         -webkit-background-clip: text;
         background-clip: text;
 	}
 }
 
-#overlay {
-    background: url("../images/black-frost-ripples-1280.jpg");
-    background-size:cover;
-    -webkit-box-shadow: 0 0 10px black;
-        box-shadow: 0 0 10px black;
-    opacity: 0.35;
-}
+/* div.content {
+    background:rgba(28, 49, 58, 0.3);
+} */
 
 #header {
     background: url("../images/black-frost-ripples-1280.jpg") !important;
@@ -41,10 +37,10 @@
 }
 
 div.speed-1 p.speed-1 {
-    text-align: center;
+    margin-right:10rem !important;
     display: inline-block;
     font-family: 'Montserrat';
-    font-size: 20px;
+    font-size: 30px;
     color: white;
     text-transform: none;
     margin: 0 20px;
@@ -54,9 +50,10 @@ div.speed-1 p.speed-1 {
 }
 
 div.speed-2 p.speed-2 {
+    margin-right:10rem !important;
     display: inline-block;
     font-family: 'Montserrat';
-    font-size: 16px;
+    font-size: 26px;
     color: white;
     text-transform: none;
     margin: 0 20px;
@@ -66,9 +63,10 @@ div.speed-2 p.speed-2 {
 }
 
 div.speed-3 p.speed-3 {
+    margin-right:10rem !important;
     display: inline-block;
     font-family: 'Montserrat';
-    font-size: 16px;
+    font-size: 22px;
     color: white;
     text-transform: none;
     margin: 0 20px;

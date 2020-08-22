@@ -1,0 +1,36 @@
+@import compass
+
+$size: 120px
+$line: 4px
+$color: lighten(tomato, 20%)
+$back: tomato
+
+body
+  background: $back
+
+=star
+  display: block
+  width: $size
+  height: $size
+  border: $line solid $color
+  border-radius: $size/3 - $line
+
+.weave
+  +star
+  margin: $size/3 auto
+  position: relative
+  color: $color
+  text-align: center
+  font: 700 #{$size/4}/$size 'Quicksand', sans-serif
+  &:before,
+  &:after
+    +star
+    content: ""
+    position: absolute
+    top: -$line
+    left: -$line
+  &:before
+    +transform(rotate(30deg))
+  &:after
+    +transform(rotate(60deg))
+    

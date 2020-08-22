@@ -111,9 +111,9 @@ class Header extends React.Component {
         </div>
 
         <header id="header">
-          <h1 id="logo">
+          {/* <h1 id="logo">
             <Link to="/">{siteTitle}</Link>
-          </h1>
+          </h1> */}
           <div className="navbar-menu">
             <nav>
               <ul style={{ display: 'flex', flex: 1 }}>
