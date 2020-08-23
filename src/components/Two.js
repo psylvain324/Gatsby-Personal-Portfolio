@@ -34,7 +34,7 @@ const Two = props => (
         </p>
         <ul className="actions">
           <li>
-            <a href="/" className="button">
+            <a href="/resume" className="button">
               Learn More
             </a>
           </li>

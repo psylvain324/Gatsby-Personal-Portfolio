@@ -11,62 +11,21 @@ module.exports = {
         link: '/',
       },
       {
-        name: 'Layouts',
-        link: '#',
-        items: [
-          {
-            name: 'Left Sidebar',
-            link: '/left-sidebar',
-          },
-          {
-            name: 'Right Sidebar',
-            link: '/right-sidebar',
-          },
-          {
-            name: 'No Sidebar',
-            link: '/no-sidebar',
-          },
-          // {
-          //   name: 'SubMenu',
-          //   link: '#',
-          //   items: [
-          //     {
-          //       name: 'Option 1',
-          //       link: '#',
-          //     },
-          //     {
-          //       name: 'Option 2',
-          //       link: '#',
-          //     },
-          //     {
-          //       name: 'Option 3',
-          //       link: '#',
-          //     },
-          //     {
-          //       name: 'Option 4',
-          //       link: '#',
-          //     },
-          //   ],
-          // },
-        ],
-      },
-      {
-        name: 'Elements',
-        link: '/elements',
+        name: 'Contact',
+        link: '/contact',
       },
       {
         name: 'Resume',
         link: '/resume',
       },
       {
+        name: 'Portfolio',
+        link: '/portfolio',
+      },
+      {
         name: 'Blog',
         link: '/blog',
       },
-      // {
-      //   name: 'Sign Up',
-      //   link: '#',
-      //   cl: 'button primary',
-      // },
     ],
   },
   plugins: [

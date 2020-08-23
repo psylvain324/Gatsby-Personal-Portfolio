@@ -3,6 +3,7 @@ import React from 'react'
 import Img from "gatsby-image"
 import BannerPicEn from '../assets/images/IMG_2104_Enhanced.jpg'
 import { Link as ScrollLink } from 'react-scroll'
+import LinkButton from '../components/LinkButton'
 import CustomStyle from '../assets/css/custom.css'
 import CustomStyles from '../assets/scss/custom.scss'
 
@@ -17,20 +18,14 @@ const Banner = props => (
               </div>
             </div>
           </div>
-          {/* <div className="speed-1">
-            <p className="speed-1">Web Developer/Designer</p>
-          </div>
-          <div className="speed-2">
-            <p className="speed-2">Asp.Net | Angular | Java/Kotlin Spring Boot</p>
-          </div>
-          <div className="speed-3">
-            <p className="speed-3">Coder, Traveler, Writer</p>
-          </div> */}
           <sub-section className="animation-box">
             <div className="top-fade-out">Web Developer/Designer</div><br />
-            <div className="right-fade-in">Asp.NET | Angular | Java Spring Boot</div>
+            <div className="right-fade-in">ASP.NET | Angular | Java Spring Boot</div>
             <div className="left-fade-in">Coder, Traveler, Writer</div>
-          </sub-section >
+          </sub-section ><br /><br />
+          <div>
+            <LinkButton />
+          </div>
         </header>
       <div>
         <Img fixed={BannerPicEn} />

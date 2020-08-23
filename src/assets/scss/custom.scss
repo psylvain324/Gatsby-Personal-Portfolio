@@ -1,7 +1,9 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:500");
+
 .custom-banner {
     display: inline-block;
     font-size: 3vw !important;
-    margin-right:20% !important;
+    margin-right:25% !important;
     margin-bottom:10%;
     margin-top: -25%;
     text-transform: uppercase;
@@ -43,7 +45,7 @@
 .heading-frame {
     display: grid;
 	place-items: center;
-	box-shadow: 0 3px 6px rgba(0,0,0,0.4);
+	box-shadow: 0 3px 6px rgba(0,0,0,0.9);
 	grid-template-columns: max-content auto;
 	grid-template-rows: auto max-content;
 	background: #333 url('.././images/hnet.com-image.ico') center;
@@ -87,13 +89,14 @@
     color: #000;
     text-align: center;
     letter-spacing: 5px;
+    font-weight: bold;
 }
 
 .top-fade-out {
     font-size: 2.4rem;
     position: absolute;
-    left: 12.5rem;
-    top: 5rem;
+    left: 10rem;
+    top: 6rem;
     opacity: 1;
     animation-name: topFadeOut;
     animation-duration: 2s;
@@ -103,7 +106,7 @@
 .right-fade-in {
     font-size: 1.6rem;
     position: absolute;
-    right: 10rem;
+    right: 12rem;
     top: 9rem;
     animation-name: rightFadeInOut;
     animation-delay: 0s;
@@ -114,8 +117,8 @@
 .left-fade-in {
     font-size: 1.6rem;
     position: absolute;
-    left: 17.5rem;
-    top: 13rem;
+    left: 16.5rem;
+    top: 12rem;
     animation-name: leftFadeInOut;
     animation-delay: 0s;
     animation-duration: 3s;
@@ -128,7 +131,7 @@
         top: -5rem;
         opacity: 0;
     }
-    50% {
+    65% {
         top: 25%;
         opacity: 0.50;
     }
@@ -164,5 +167,103 @@
     }
     100% {
         opacity: 1;
+    }
+}
+
+.btn-share {
+    right: 11rem;
+    --btn-color: #c03411;
+    position: relative;
+    padding: 16px 32px;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1;
+    color: white;
+    background: none;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    cursor: pointer;
+    filter: drop-shadow(0 2px 8px rgba(#FFAB40, 0.50));
+    transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+
+    &::before {
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        background: var(--btn-color);
+        border-radius: 24px;
+        transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+
+    .btn-text,
+    .btn-icon {
+        display: inline-flex;
+        vertical-align: middle;
+        transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+
+    .btn-text {
+        transition-delay: 0.05s;
+    }
+
+    .btn-icon {
+        margin-left: 8px;
+        transition-delay: 0.1s;
+    }
+
+    .social-icons {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        display: flex;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        transform: translateY(-50%);
+
+        li {
+            flex: 1;
+
+        a {
+            display: inline-flex;
+            vertical-align: middle;
+            transform: translateY(55px);
+            transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+
+            &:hover {
+            opacity: 0.5;
+                }
+            }
+        }
+    }
+
+    &:hover {
+        &::before {
+            transform: scale(1.2);
+        }
+
+        .btn-text,
+        .btn-icon {
+            transform: translateY(-55px);
+        }
+
+        .social-icons li {
+        a {
+            transform: translateY(0);
+        }
+
+        @for $i from 1 through 3 {
+                &:nth-child(#{$i}) a {
+                transition-delay: 0.1s + 0.05s * $i;
+                }
+            }
+        }
     }
 }

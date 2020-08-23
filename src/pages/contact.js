@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-unused-vars */
 import React from 'react'
 import { Helmet } from 'react-helmet'
@@ -6,18 +7,18 @@ import Layout from '../components/layout'
 const Contact = props => (
     <Layout>
       <Helmet>
-        <title>Phillip Sylvain - Technical Skills</title>
+        <title>Phillip Sylvain - Contact Page</title>
         <meta name="description" content="Skills Page" />
       </Helmet>
       <div className="container">
         <header className="major">
-          <h2>Contact</h2>
+          <h2>Contact Page</h2>
           <p>
-            Let`@apos`s connect and collaborate
+            Let's connect and collaborate
           </p>
         </header>
       <section>
-          <h3>Form</h3>
+          <h3>Fill In The Form Below:</h3>
           <form method="post" action="#">
             <div className="row gtr-uniform gtr-50">
               <div className="col-6 col-12-xsmall">
