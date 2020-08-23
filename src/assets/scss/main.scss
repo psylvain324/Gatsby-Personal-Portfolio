@@ -1629,6 +1629,9 @@
 		text-align: center;
 
 		.icons {
+			padding-top: 2em !important;
+			padding-bottom: 2em !important;
+			
 			.icon {
 				&.alt {
 					@include line-icon(_palette(accent2), _palette(fg-light));

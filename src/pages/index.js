@@ -6,7 +6,6 @@ import One from '../components/One'
 import Two from '../components/Two'
 import Three from '../components/Three'
 import Four from '../components/Four'
-import Five from '../components/Five'
 
 class Home extends React.Component {
   render() {
@@ -25,7 +24,6 @@ class Home extends React.Component {
         <Two />
         <Three />
         <Four />
-        <Five />
       </Layout>
     )
   }

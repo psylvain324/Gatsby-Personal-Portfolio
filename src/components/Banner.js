@@ -1,7 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 import Img from "gatsby-image"
-import BannerPicEn from '../assets/images/IMG_2104_Enhanced.jpg'
 import { Link as ScrollLink } from 'react-scroll'
 import LinkButton from '../components/LinkButton'
 import CustomStyle from '../assets/css/custom.css'
@@ -14,7 +13,7 @@ const Banner = props => (
           <div className="custom-banner-body">
             <div className="custom-banner">
               <div className="luminence">
-                <h1 className="custom-content">Phillip Sylvain</h1>
+                <h1 className="custom-content">Phillip  Sylvain</h1>
               </div>
             </div>
           </div>
@@ -27,9 +26,6 @@ const Banner = props => (
             <LinkButton />
           </div>
         </header>
-      <div>
-        <Img fixed={BannerPicEn} />
-      </div>
     </div>
     <ScrollLink
         to="one"

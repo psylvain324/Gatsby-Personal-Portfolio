@@ -190,7 +190,7 @@ input, select, textarea {
 	}
 
 		hr.major {
-			margin: 4em 0;
+			margin: 2em 0;
 		}
 
 	blockquote {
@@ -2180,7 +2180,7 @@ input, select, textarea {
 	}
 
 	header.major {
-		margin: 0 0 0.25em 0;
+		margin: 0 0 4em 0;
 		position: relative;
 		text-align: center;
 	}
@@ -3197,7 +3197,7 @@ input, select, textarea {
 /* Wrapper */
 
 	.wrapper {
-		padding: 1.5em 0 1em 0;
+		padding: 6em 0 4em 0;
 	}
 
 		.wrapper.style2 {
@@ -3645,7 +3645,7 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
-				padding: 2m 0;
+				padding: 2em 0;
 			}
 
 	}

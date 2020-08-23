@@ -1,12 +1,17 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 import Fade from 'react-reveal/Fade'
+import { Petronas } from '../assets/images/Petronas.jpg'
 import CustomStyle from '../assets/css/custom.css'
 import CustomStyles from '../assets/scss/custom.scss'
 
 const Four = props => (
   <Fade up>
-    <section id="four" className="wrapper style1 special fade-up">
+    <section 
+      id="four" 
+      className="wrapper style1 special fade-up"
+      style={{ backgroundImage: `url(${Petronas})`}} 
+    >
       <div className="container">
         <header className="major">
           <h2>Proficient Technologies</h2>

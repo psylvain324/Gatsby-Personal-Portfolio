@@ -2,7 +2,7 @@
 import React from 'react'
 import KLPic from '../assets/images/Petronas.jpg'
 import { Link as ScrollLink } from 'react-scroll'
-import Fade from 'react-reveal/Fade'
+import Zoom from 'react-reveal/Zoom';
 
 const One = props => (
   <section
@@ -13,7 +13,7 @@ const One = props => (
     <span className="image fit main">
       <img src={KLPic} alt="" />
     </span>
-    <Fade bottom big>
+    <Zoom bottom big>
       <div className="content">
         <div className="container">
           <div className="row">
@@ -50,7 +50,7 @@ const One = props => (
           </div>
         </div>
       </div>
-    </Fade>
+    </Zoom>
     <ScrollLink
       to="two"
       className="goto-next"

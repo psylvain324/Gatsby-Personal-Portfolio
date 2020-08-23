@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Monoton');
 
-.navbar-menu {
-    align-items: center !important;
-	background-color: rgba(0, 0, 0, .4);
-	-webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);  
-    position: sticky;
-}
-
 .custom-banner-body {
     width: 100%;
     height: 100%;
@@ -20,12 +12,32 @@
     letter-spacing: 4px;
 }
 
-#footer {
-    padding-top: 0 !important;
+h1:after {
+    background: linear-gradient(90deg,#FFAB40,#F44336);
+    height: 5px;
+    position: absolute;
+    min-width: 100px;
+    max-width: 130px;
+    width: 25%;
+    bottom: -15px;
+}
+
+.spotlight:before {
+    border-bottom: 5rem solid black;
+    border-image-source: url('../images/black-frost-ripples-1280.jpg');
+    border-image-slice: 5rem fill;
 }
 
 #banner.content {
     padding-bottom: 0em !important;
+    clip-path: polygon(50% 99%,0 0,100% 0);
+    background-color: rgba(0, 0, 0, .4);
+	-webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+
+.go-to-next {
+    top: -20em;
 }
 
 @supports (-webkit-background-clip: text) {
@@ -57,6 +69,8 @@
     position: relative !important;
     z-index: 101;
     align-content: center !important;
+    position: absolute !important;
+    right: 50% !important;
 }
 
 @keyframes fadeIn {
@@ -123,7 +137,7 @@
 }
 
 #angular {
-    background-image: url('../../assets/images/angular-icon.png');
+    background-image: url('../../assets/images/angular-icon.jpg');
     color: rgba(221, 86, 63, .9);
   }
   
