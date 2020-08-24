@@ -1,6 +1,5 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import Img from "gatsby-image"
 import { Link as ScrollLink } from 'react-scroll'
 import LinkButton from '../components/LinkButton'
 import CustomStyle from '../assets/css/custom.css'
@@ -27,17 +26,19 @@ const Banner = props => (
           </div>
         </header>
     </div>
-    <ScrollLink
-        to="one"
-        className="goto-next"
-        activeClass="active"
-        smooth={true}
-        offset={50}
-        duration={1000}
-        spy={true}
+    <div className="">
+      <ScrollLink
+          to="one"
+          className="goto-next"
+          activeClass="active"
+          smooth={true}
+          offset={50}
+          duration={1000}
+          spy={true}
       >
         Next
       </ScrollLink>
+    </div>
   </section>
 )
 

@@ -12,33 +12,14 @@
     letter-spacing: 4px;
 }
 
-h1:after {
-    background: linear-gradient(90deg,#FFAB40,#F44336);
-    height: 5px;
-    position: absolute;
-    min-width: 100px;
-    max-width: 130px;
-    width: 25%;
-    bottom: -15px;
-}
-
-.spotlight:before {
-    border-bottom: 5rem solid black;
-    border-image-source: url('../images/black-frost-ripples-1280.jpg');
-    border-image-slice: 5rem fill;
-}
-
 #banner.content {
-    padding-bottom: 0em !important;
-    clip-path: polygon(50% 99%,0 0,100% 0);
-    background-color: rgba(0, 0, 0, .4);
-	-webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
+    padding-bottom: -3em !important; 
 }
 
-.go-to-next {
-    top: -20em;
-}
+/* .spotlight:before {
+    border-bottom: 5rem solid black;
+    position: fixed !important;
+} */
 
 @supports (-webkit-background-clip: text) {
 	h1 {
@@ -49,28 +30,12 @@ h1:after {
 	}
 }
 
-.circular--portrait {
-    position: relative;
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
-    border-radius: 50%;
-  }
-  
-.circular--portrait Img {
-    width: 100%;
-    height: auto;
-}
-
 #header {
     background: url("../images/black-frost-ripples-1280.jpg") !important;
     background-size: cover !important;
     opacity: 1;
     position: relative !important;
     z-index: 101;
-    align-content: center !important;
-    position: absolute !important;
-    right: 50% !important;
 }
 
 @keyframes fadeIn {
