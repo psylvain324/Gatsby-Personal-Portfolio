@@ -4,21 +4,21 @@ import React from 'react'
 const Footer = props => (
   <footer id="footer">
     <ul className="icons">
-      {/* <li>
+      <li>
         <a href="/" className="icon brands alt fa-facebook-f">
           <span className="label">Facebook</span>
         </a>
-      </li> */}
+      </li>
       <li>
         <a href="/" className="icon brands alt fa-linkedin-in">
           <span className="label">LinkedIn</span>
         </a>
       </li>
-      {/* <li>
+      <li>
         <a href="/" className="icon brands alt fa-instagram">
           <span className="label">Instagram</span>
         </a>
-      </li> */}
+      </li>
       <li>
         <a href="/" className="icon brands alt fa-github">
           <span className="label">GitHub</span>

@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import KLPic from '../assets/images/kuala-lumpur-1.jpg'
+import PGPic from '../assets/images/Pittsburgh-1.jpg'
 import { Link as ScrollLink } from 'react-scroll'
 import Fade from 'react-reveal/Fade'
 
@@ -8,27 +8,37 @@ const Two = props => (
   <section
     id="two"
     className="spotlight style2 right inactive"
-    style={{ backgroundImage: `url(${KLPic})` }}
+    style={{ backgroundImage: `url(${PGPic})` }}
   >
     <span className="image fit main">
-      <img src={KLPic} alt="" />
+      <img src={PGPic} alt="" />
     </span>
     <Fade right big>
       <div className="content">
         <header>
-          <h2>Interdum amet non magna accumsan</h2>
-          <p>Nunc commodo accumsan eget id nisi eu col volutpat magna</p>
+        <div className="custom-banner-2">
+            <div className="luminence-2">
+              <h1>Resume</h1>
+            </div>
+        </div>
+          <p>Here you will find my update to Date Resume in React Form!</p>
         </header>
         <p>
-          Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim
-          mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet
-          augue varius tempus lobortis porttitor lorem et accumsan consequat
-          adipiscing lorem.
+          Recently I have worked for companies in cities like Pittsburgh,
+          Singapore, and Kuala Lumpur, Malaysia. I have worked in multiple
+          Technologies on both the front and back end in several different
+          programming languages. I have a great passion for Technology,
+          Travel, and meeting new people!
         </p>
         <ul className="actions">
           <li>
             <a href="/resume" className="button">
-              Learn More
+              Resume
+            </a>
+          </li>
+          <li>
+            <a href="/portfolio" className="button">
+              Portfolio
             </a>
           </li>
         </ul>

@@ -12,18 +12,24 @@ const Four = props => (
       className="wrapper style1 special fade-up"
       style={{ backgroundImage: `url(${Petronas})`}} 
     >
+    <span className="image fit main">
+      <img src={Petronas} alt="" />
+    </span>
       <div className="container">
-        <header className="major">
-          <h2>Proficient Technologies</h2>
-        </header>
+        {/* <header className="major"> */}
+        <div className="custom-banner-2">
+            <div className="luminence-2">
+              <h1>Proficient Technologies</h1>
+            </div>
+        </div>
+        {/* </header> */}
         <div className="box alt">
           <div className="row gtr-uniform">
             <section className="col-4 col-6-medium col-12-xsmall">
               <div id="asp-net" className="image-animation"></div>
               <div>
                 <p>
-                  Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit
-                  orci porttitor.
+                  C#, ASP.Net Core, Visual Studio, MVC, Entity Framework, Razor Pages, LINQ, XUnit, NUnit
                 </p>
               </div>
             </section>
@@ -31,8 +37,7 @@ const Four = props => (
               <div id="spring-boot" className="image-animation"></div>
               <div>
                 <p>
-                  Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit
-                  orci porttitor.
+                  Java, Spring Boot, Hibernate, JPA, JDBC, AOP, Reactive Spring, Intellij, Eclipse
                 </p>
               </div>
             </section>
@@ -40,8 +45,7 @@ const Four = props => (
               <div id="angular" className="image-animation"></div>
               <div>
                 <p>
-                  Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit
-                  orci porttitor.
+                  Angular2, Typescript, RxJs, NgRx, Reactive Forms, Angular Material, Jasmine
                 </p>
               </div>
             </section>
@@ -49,8 +53,7 @@ const Four = props => (
               <div id="sql" className="image-animation"></div>
                 <div>
                   <p>
-                    Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit
-                    orci porttitor.
+                    SQL Management Studio, Oracle, MySQL, Complex Queries, Database Design
                   </p>
               </div>
             </section>
@@ -58,8 +61,7 @@ const Four = props => (
               <div id="javascript" className="image-animation"></div>
                 <div>
                   <p>
-                    Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit
-                    orci porttitor.
+                    Javascript, ES6, Ajax, jQuery, Visual Studio Code
                   </p>
               </div>
             </section>
@@ -67,8 +69,7 @@ const Four = props => (
               <div id="react" className="image-animation"></div>
                 <div>
                   <p>
-                    Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit
-                    orci porttitor.
+                    React, JSX, Babel, Material UI, Redux, GatsbyJS
                   </p>
               </div>
             </section>

@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import PGPic from '../assets/images/Pittsburgh-1.jpg'
+import SGPic from '../assets/images/Singapore-2.jpg'
 import { Link as ScrollLink } from 'react-scroll'
 import Fade from 'react-reveal/Fade'
 
@@ -8,27 +8,31 @@ const Three = props => (
   <section
     id="three"
     className="spotlight style3 left inactive"
-    style={{ backgroundImage: `url(${PGPic})` }}
+    style={{ backgroundImage: `url(${SGPic})` }}
   >
     <span className="image fit main bottom">
-      <img src={PGPic} alt="" />
+      <img src={SGPic} alt="" />
     </span>
     <Fade left big>
       <div className="content">
         <header>
-          <h2>Interdum felis blandit praesent sed augue</h2>
-          <p>Accumsan integer ultricies aliquam vel massa sapien phasellus</p>
+        <div className="custom-banner-2">
+            <div className="luminence-2">
+              <h1>Blog</h1>
+            </div>
+        </div>
+          <p>Learn more about Technology, Travel, and many things in between!</p>
         </header>
         <p>
-          Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim
-          mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet
-          augue varius tempus lobortis porttitor lorem et accumsan consequat
-          adipiscing lorem.
+          As an avid writer and lover of technology I have begun to Blog
+          on relevant topics to my own career, travel, nutrition, and many
+          other topics of interest. I would love to get as much feedback assets
+          possible and provide help or information on any requested topics!
         </p>
         <ul className="actions">
           <li>
             <a href="/" className="button">
-              Learn More
+              Visit Blog
             </a>
           </li>
         </ul>

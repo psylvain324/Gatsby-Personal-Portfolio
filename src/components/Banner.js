@@ -6,7 +6,7 @@ import CustomStyle from '../assets/css/custom.css'
 import CustomStyles from '../assets/scss/custom.scss'
 
 const Banner = props => (
-  <section id="banner">
+  <section className="custom-header" id="banner">
     <div className="content">
         <header>
           <div className="custom-banner-body">
@@ -24,21 +24,22 @@ const Banner = props => (
           <div>
             <LinkButton />
           </div>
+          <div className="bottom-arrow">
+              <ScrollLink
+              to="one"
+              className="goto-next"
+              activeClass="active"
+              smooth={true}
+              offset={50}
+              duration={1000}
+              spy={true}>
+            Next
+          </ScrollLink>
+          </div>
+
         </header>
     </div>
-    <div className="">
-      <ScrollLink
-          to="one"
-          className="goto-next"
-          activeClass="active"
-          smooth={true}
-          offset={50}
-          duration={1000}
-          spy={true}
-      >
-        Next
-      </ScrollLink>
-    </div>
+
   </section>
 )
 

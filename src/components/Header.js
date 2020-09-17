@@ -136,7 +136,7 @@ class Header extends React.Component {
                                   display: `block`,
                                   background: `rgba(39, 40, 51, 0.965)`,
                                   position: `absolute`,
-                                  right: `55%`,
+                                  right: `0%`,
                                   minWidth: `150px`,
                                   borderRadius: `5px`,
                                 }

@@ -21,7 +21,9 @@ class Home extends React.Component {
         ></Helmet>
         <Banner />
         <One />
+        <hr className="page-break" />
         <Two />
+        <hr className="page-break" />
         <Three />
         <Four />
       </Layout>
