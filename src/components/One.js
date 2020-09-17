@@ -22,7 +22,7 @@ const One = props => (
             <div className="col-4 col-12-medium">
               <header>
                 <div className="heading-frame">
-                  <h2 contentEditable="false">Career<br/>Overview</h2>
+                  <h3 contentEditable="false">Career<br/>Overview</h3>
                 </div>
               </header>
             </div>

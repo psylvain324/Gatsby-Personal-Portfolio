@@ -7,7 +7,7 @@
     margin-bottom:10%;
     margin-top: -25%;
     text-transform: uppercase;
-    color: #FF5722;
+    color: #FF5722 !important;
     align-content: center !important;
     
     @media (min-width: 350px) {
@@ -23,7 +23,7 @@
     display: inline-block;
     font-size: 3vw !important;
     text-transform: uppercase;
-    color: #f0f34a;
+    color: #f0f34a !important;
     align-content: center !important;
     
     @media (min-width: 350px) {
@@ -63,10 +63,10 @@
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    animation: reveal 1500ms ease-in backwards 1500ms, glow 5000ms linear infinite 3000ms;
+    animation: reveal-2 1500ms ease-in backwards 1500ms, glow-2 5000ms linear infinite 3000ms;
     position: relative;
   
-    @keyframes reveal {
+    @keyframes reveal-2 {
       80%{
         letter-spacing: 4px;
       }
@@ -74,9 +74,9 @@
         background-size: 300% 300%;
       }
     }
-    @keyframes glow {
+    @keyframes glow-2 {
       40% {
-        text-shadow: 0 0 2px #24fc53;
+        text-shadow: 0 0 1px #24fc53;
       }
     }
 } 
@@ -225,7 +225,7 @@
     overflow: hidden;
     cursor: pointer;
     filter: drop-shadow(0 2px 8px rgba(#FFAB40, 0.50));
-    transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
 
     &::before {
         position: absolute;
@@ -300,81 +300,9 @@
 
         @for $i from 1 through 3 {
                 &:nth-child(#{$i}) a {
-                transition-delay: 0.1s + 0.05s * $i;
+                transition-delay: 0.05s * $i;
                 }
             }
-        }
-    }
-}
-
-.flip-card {
-    margin: 0;
-    padding: 0;
-    font-family: 'Josefin Sans', sans-serif;
-    background-color: #000000;
-    a {
-        color: #ffffff;
-        text-decoration: none;
-    }
-    position: absolute;
-    top: 50%;
-    height: 200px;
-    width: 150px;
-    transform: translate(-50%, -50%);
-    transform-style: preserve-3d;
-    perspective: 600px;
-    transition: .5s;
-    &:hover .flip-card-front {
-        transform: rotateX(-180deg);
-    }
-
-    &:hover .flip-card-back {
-        transform: rotateX(0deg);
-    }
-}
-
-.flip-card-front {
-    height: 100%;
-    width: 100%;
-    background-image: url('../images/Portfolio-Profile-Pic.jpg');
-    background-position: 50% 50%;
-    background-size: cover;
-    position: absolute;
-    background-color: #000000;
-    backface-visibility: hidden;
-    transform: rotateX(0deg);
-    transition: .5s;
-}
-
-.flip-card-back {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    font-family: 'Josefin Sans', sans-serif;
-    backface-visibility: hidden;
-    transform: rotateX(180deg);
-    transition: .5s;
-    color: #000000;
-    text-align: center;
-    h2 {
-        margin: 60% auto 35% auto;
-        font-size: 26px;
-
-        span {
-            font-size: 20px;
-        }
-    }
-    a {
-        height: 20px;
-        width: 20px;
-        padding: 5px 5px;
-        border-radius: 4px;
-        line-height: 20px;
-        color: #ffffff;
-        text-decoration: none;
-        &:hover {
-            color: #000000;
-            background-color: #fff;
         }
     }
 }

@@ -42,7 +42,7 @@ footer.major {
 }
 
 div.react-reveal.content {
-    opacity: 0.8 !important;
+    opacity: 0.9 !important;
 }
 
 .image.fit {
@@ -51,12 +51,8 @@ div.react-reveal.content {
     width: 100%;
 }
 
-div.content {
-    top: 50px;
-}
-
 .page-break {
-    background-image: repeating-linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 12, 44, 0.493));
+    background-image: radial-gradient(rgba(19, 0, 0, 0.493), rgba(0, 4, 15, 0.493));
     border: 0;
     height: 50px;
 }
@@ -115,7 +111,7 @@ h2 {
     justify-content: center;
     align-items: center;
     box-shadow: 0 0 0 150px inset, 0 0 5px grey;
-    transition: box-shadow 1s;
+    transition: box-shadow 0.5s;
     margin: 10px;
     margin-left: 95px;
 }
@@ -132,17 +128,17 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: opacity 1s .5s;
+    transition: opacity 0.5s 0.5s;
 }
   
 .image-animation:hover {
     box-shadow: 0 0 0 5px inset, 0 0 5px grey, 0 0 10px grey inset;
-    transition: box-shadow 1s;
+    transition: box-shadow 0.5s;
 }
 
 .image-animation:hover::after {
     opacity: 0;
-    transition: opacity .5s;
+    transition: opacity .25s;
 }
 
 #angular {
