@@ -3,7 +3,7 @@ import React from 'react'
 import KLPic from '../assets/images/Petronas.jpg'
 import { Link as ScrollLink } from 'react-scroll'
 import Fade from 'react-reveal/Fade'
-import Zoom from 'react-reveal/Zoom';
+import SocialSideBar from '../components/SocialSideBar';
 
 const One = props => (
   <section
@@ -20,13 +20,6 @@ const One = props => (
         <div className="container">
           <div className="row">
             <div className="col-4 col-12-medium">
-              <header>
-                <div className="heading-frame">
-                  <h3 contentEditable="false">Career<br/>Overview</h3>
-                </div>
-              </header>
-            </div>
-            <div className="col-4 col-12-medium">
               <p>
                 The majority of my career I have worked primarily as a 
                 backed developer in ASP.NET in C# with SQL databases. 
@@ -37,6 +30,11 @@ const One = props => (
                 that have come and coming soon in the upcoming framework releases.
               </p>
             </div>
+            <header className="profile-pic">
+              <div className="heading-frame">
+                <h3 contentEditable="false">Career<br/>Overview</h3>
+              </div>
+            </header>
             <div className="col-4 col-12-medium">
               <p>
                 Most recently I have worked in Java Spring Boot
@@ -49,6 +47,7 @@ const One = props => (
                 page queries and SEO data. 
               </p>
             </div>
+            {/* <SocialSideBar /> */}
           </div>
         </div>
       </div>

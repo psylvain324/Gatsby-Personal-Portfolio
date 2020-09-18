@@ -17,8 +17,8 @@ const Four = props => (
     </span>
       <div className="container">
         {/* <header className="major"> */}
-        <div className="custom-banner-2">
-            <div className="luminence-2">
+        <div className="custom-animated-header">
+            <div className="header-luminence">
               <h1>Proficient Technologies</h1>
             </div>
         </div>
