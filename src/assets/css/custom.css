@@ -1,223 +1,244 @@
 @import url('https://fonts.googleapis.com/css?family=Monoton');
 
 .custom-banner-body {
-    width: 100%;
-    height: 100%;
-    margin-right:20% !important;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "Monoton", Helvetica, sans-serif;
-    background: transparent;
-    letter-spacing: 4px;
+  width: 100%;
+  height: 100%;
+  margin-right: 20% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Monoton', Helvetica, sans-serif;
+  background: transparent;
+  letter-spacing: 4px;
 }
 
 #banner.content {
-    padding-bottom: -3em !important; 
+  padding-bottom: -3em !important;
 }
 
 .custom-header {
-    padding-bottom:-15em !important;
+  padding-bottom: -15em !important;
 }
 
 .bottom-arrow {
-    bottom: 1%;
+  bottom: 1%;
 }
 
 #footer {
-    padding: 1em 0 !important;
+  padding: 1em 0 !important;
 }
 
 #footer .icons {
-    padding-top: .2em!important;
-    padding-bottom: .2em!important;
+  padding-top: 0.2em !important;
+  padding-bottom: 0.2em !important;
 }
 
 header.major {
-    margin: 0 0 0.5em !important;
+  margin: 0 0 0.5em !important;
 }
 
 footer.major {
-    margin: 0.5em 0 0 !important;
+  margin: 0.5em 0 0 !important;
 }
 
 div.react-reveal.content {
-    opacity: 0.95 !important;
+  opacity: 0.95 !important;
 }
 
 .image.fit {
-    display: block;
-    margin: 0 0 0em !important;
-    width: 100%;
+  display: block;
+  margin: 0 0 0em !important;
+  width: 100%;
 }
 
 .page-break {
-    border: 0;
-    background: #e44c65;
-    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
-    background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
-    background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
-    background-image: -o-linear-gradient(left, #ccc, #333, #ccc); 
-    height: 5px;
-    border-style: solid;
-    border-color: black;
-    border-color: linear-gradient(7deg, #F44336 50%, #FF5722 0);
-    border-width: 1px 0 0 0;
-    border-radius: 20px;
-    margin-top: 4em !important;
-    margin-bottom: 0em !important;
-    box-shadow: 0px 3px 5px rgba(49, 49, 49, 0.932), 0px -3px 5px rgba(49, 49, 49, 0.932)33;
+  border: 0;
+  background: #e44c65;
+  background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+  background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+  background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+  background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
+  height: 5px;
+  border-style: solid;
+  border-color: black;
+  border-color: linear-gradient(7deg, #f44336 50%, #ff5722 0);
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+  margin-top: 4em !important;
+  margin-bottom: 0em !important;
+  box-shadow: 0px 3px 5px rgba(49, 49, 49, 0.932),
+    0px -3px 5px rgba(49, 49, 49, 0.932) 33;
 }
 
 .page-break:before {
-    display: block;
-    content: "";
-    height: 5px;
-    margin-top: -31px;
-    border-style: solid;
-    border-color: linear-gradient(7deg, #F44336 50%, #FF5722 0);
-    border-width: 0 0 1px 0;
-    border-radius: 20px;
-    margin-top: 4em !important;
-    margin-bottom: 0em !important;
-    box-shadow: 0px 3px 5px rgba(49, 49, 49, 0.932), 0px -3px 5px rgba(49, 49, 49, 0.932);
+  display: block;
+  content: '';
+  height: 5px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: linear-gradient(7deg, #f44336 50%, #ff5722 0);
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+  margin-top: 4em !important;
+  margin-bottom: 0em !important;
+  box-shadow: 0px 3px 5px rgba(49, 49, 49, 0.932),
+    0px -3px 5px rgba(49, 49, 49, 0.932);
 }
 
 h2 {
-    margin: 0 0 2em !important;
+  margin: 0 0 2em !important;
 }
 
 @supports (-webkit-background-clip: text) {
-	h1 {
-		color: transparent;
-		background: linear-gradient(7deg, #F44336 50%, #FF5722 0);
-        -webkit-background-clip: text;
-        background-clip: text;
-	}
+  h1 {
+    color: transparent;
+    background: linear-gradient(7deg, #f44336 50%, #ff5722 0);
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
 }
 
 #header {
-    background: url("../images/black-frost-ripples-1280.jpg") !important;
-    background-size: cover !important;
-    opacity: 1;
-    position: relative !important;
-    z-index: 101;
+  background: url('../images/black-frost-ripples-1280.jpg') !important;
+  background-size: cover !important;
+  opacity: 1;
+  position: relative !important;
+  z-index: 101;
 }
 
 @keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @-moz-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @-webkit-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @-o-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @-ms-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .image-animation {
-    width: 200px !important;
-    height: 200px !important;
-    text-shadow: 0 0 2px white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 0 0 150px inset, 0 0 5px grey;
-    transition: box-shadow 0.5s;
-    margin: 10px;
-    margin-left: 95px;
+  width: 200px !important;
+  height: 200px !important;
+  text-shadow: 0 0 2px white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 0 150px inset, 0 0 5px grey;
+  transition: box-shadow 0.5s;
+  margin: 10px;
+  margin-left: 95px;
 }
-  
+
 .image-animation::after {
-    width: 80%;
-    height: 80%;
-    display: block;
-    white-space: pre;
-    font: 15pt 'Monoton';
-    color: white;
-    border: 2px solid;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: opacity 0.5s 0.5s;
+  width: 80%;
+  height: 80%;
+  display: block;
+  white-space: pre;
+  font: 15pt 'Monoton';
+  color: white;
+  border: 2px solid;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.5s 0.5s;
 }
-  
+
 .image-animation:hover {
-    box-shadow: 0 0 0 5px inset, 0 0 5px grey, 0 0 10px grey inset;
-    transition: box-shadow 0.5s;
+  box-shadow: 0 0 0 5px inset, 0 0 5px grey, 0 0 10px grey inset;
+  transition: box-shadow 0.5s;
 }
 
 .image-animation:hover::after {
-    opacity: 0;
-    transition: opacity .25s;
+  opacity: 0;
+  transition: opacity 0.25s;
 }
 
 #angular {
-    background-image: url('../../assets/images/angular-icon.jpg');
-    color: rgba(221, 86, 63, .9);
-  }
-  
+  background-image: url('../../assets/images/icons/angular-icon.jpg');
+  color: rgba(221, 86, 63, 0.9);
+}
+
 #angular::after {
-    content: 'Angular';
+  content: 'Angular';
 }
 
 #spring-boot {
-    background-image: url('../../assets/images/springboot-icon.png');
-    color: rgba(84, 212, 52, 0.9);
+  background-image: url('../../assets/images/icons/springboot-icon.png');
+  color: rgba(84, 212, 52, 0.9);
 }
 
 #spring-boot::after {
-    content: 'Spring Boot'
+  content: 'Spring Boot';
 }
 
 #asp-net {
-    background-image: url('../../assets/images/asp.net-icon.png');
-    color: rgba(91, 34, 138, 0.9);
+  background-image: url('../../assets/images/icons/asp.net-icon.png');
+  color: rgba(91, 34, 138, 0.9);
 }
 
 #asp-net::after {
-    content: 'C# ASP.NET'
+  content: 'C# ASP.NET';
 }
 
 #sql {
-    background-image: url('../../assets/images/mysql-icon.png');
-    color: rgba(250, 151, 71, 0.9);
+  background-image: url('../../assets/images/icons/mysql-icon.png');
+  color: rgba(250, 151, 71, 0.9);
 }
 
 #sql::after {
-    content: 'SQL & MongoDB'
+  content: 'SQL & MongoDB';
 }
 
 #javascript {
-    background-image: url('../../assets/images/javascript-logo.png');
-    color: rgba(250, 232, 71, 0.9);
+  background-image: url('../../assets/images/icons/javascript-logo.png');
+  color: rgba(250, 232, 71, 0.9);
 }
 
 #javascript::after {
-    content: 'Javascript'
+  content: 'Javascript';
 }
 
 #react {
-    background-image: url('../../assets/images/react-icon.png');
-    color: rgba(69, 174, 235, 0.9);
+  background-image: url('../../assets/images/icons/react-icon.png');
+  color: rgba(69, 174, 235, 0.9);
 }
 
 #react::after {
-    content: 'React & Gatsby'
+  content: 'React & Gatsby';
 }
-

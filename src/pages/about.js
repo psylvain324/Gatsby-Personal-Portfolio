@@ -20,13 +20,13 @@ const About = props => (
         </header>
 
         <h4>Blockquote</h4>
-          <blockquote>
-            Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis
-            sagittis eget tempus euismod. Vestibulum ante ipsum primis in
-            faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac
-            adipiscing accumsan faucibus. Vestibulum ante ipsum primis in
-            faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.
-          </blockquote>
+        <blockquote>
+          Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis
+          sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus
+          vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing
+          accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem
+          ipsum dolor sit amet nullam adipiscing eu felis.
+        </blockquote>
 
         <section>
           <header>
@@ -39,7 +39,6 @@ const About = props => (
             placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan
             varius montes viverra nibh in adipiscing blandit tempus accumsan.
           </p>
-
         </section>
       </div>
     </div>

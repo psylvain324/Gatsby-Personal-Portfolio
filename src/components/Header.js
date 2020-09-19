@@ -3,7 +3,6 @@ import { Link } from 'gatsby'
 import MobileMenu from './MobileMenu'
 
 const timeoutLength = 50
-
 class Header extends React.Component {
   constructor(props) {
     super(props)
@@ -111,9 +110,6 @@ class Header extends React.Component {
         </div>
 
         <header id="header">
-          {/* <h1 id="logo">
-            <Link to="/">{siteTitle}</Link>
-          </h1> */}
           <div className="navbar-menu">
             <nav>
               <ul style={{ display: 'flex', flex: 1 }}>
@@ -239,5 +235,4 @@ class Header extends React.Component {
     )
   }
 }
-
 export default Header

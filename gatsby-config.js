@@ -1,6 +1,5 @@
 /* eslint-disable no-undef */
 module.exports = {
-  //pathPrefix: `/mygatsby`,
   siteMetadata: {
     title: 'Phillip Sylvain - Portfolio',
     author: 'Phillip Sylvain',
@@ -42,7 +41,7 @@ module.exports = {
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
-        icon: 'src/assets/images/website-icon.png', // This path is relative to the root of the site.
+        icon: 'src/assets/images/icons/Portfolio-Icon.jpg', // This path is relative to the root of the site.
       },
     },
     {
@@ -80,15 +79,14 @@ module.exports = {
         }
       }
     },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/images/`,
-        name: 'images',
+        path: `${__dirname}/src/assets/images`,
       },
     },
-    'gatsby-transformer-sharp',
-    'gatsby-plugin-sharp',
     'gatsby-plugin-sass',
     {
       resolve: 'gatsby-plugin-html-attributes',

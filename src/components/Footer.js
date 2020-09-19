@@ -1,7 +1,6 @@
-/* eslint-disable no-unused-vars */
 import React from 'react'
 
-const Footer = props => (
+const Footer = () => (
   <footer id="footer">
     <ul className="icons">
       <li>
@@ -32,14 +31,9 @@ const Footer = props => (
     </ul>
     <ul className="copyright">
       <li>&copy; Phillip Sylvain. All rights reserved.</li>
-      <li>
-        Web Developer & Designer
-      </li>
-      <li>
-        Technologies Used: React, Gatsby
-      </li>
+      <li>Web Developer & Designer</li>
+      <li>Technologies Used: React, Gatsby</li>
     </ul>
   </footer>
 )
-
 export default Footer

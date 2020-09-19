@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import React from 'react'
 import { Link } from 'gatsby'
 
@@ -56,5 +55,4 @@ const MobileMenu = props => (
     )}
   </nav>
 )
-
 export default MobileMenu

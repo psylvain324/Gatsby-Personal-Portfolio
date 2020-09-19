@@ -1,11 +1,14 @@
+/* eslint-disable no-unused-vars */
 import React from 'react'
 import { Helmet } from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
-import One from '../components/One'
-import Two from '../components/Two'
-import Three from '../components/Three'
-import Four from '../components/Four'
+import CareerOverview from '../components/CareerOverview'
+import ResumePortfolioLink from '../components/ResumePortfolioLink'
+import TechStackOverview from '../components/TechStackOverview'
+import BlogLink from '../components/BlogLink'
+import CustomCSS from '../assets/css/custom.css';
+import CustomSCSS from '../assets/scss/custom.scss';
 
 class Home extends React.Component {
   render() {
@@ -15,17 +18,25 @@ class Home extends React.Component {
           htmlAttributes={{ lang: 'en' }}
           title="Phillip Sylvain - Personal Portfolio"
           meta={[
-            { name: 'description', content: 'Phillip Sylvain - Personal Portfolio' },
-            { name: 'keywords', content: 'portfolio, resume, web, developer, designer, gatsby, react, javascript, typescript, angular, spring, java, asp.net, c#' },
+            {
+              name: 'description',
+              content: 'Phillip Sylvain - Personal Portfolio',
+            },
+            {
+              name: 'keywords',
+              content:
+                'portfolio, resume, web, developer, designer, gatsby, react, javascript, typescript, angular, spring, java, asp.net, c#',
+            },
           ]}
         ></Helmet>
         <Banner />
-        <One />
+        {/* <CareerOverview petronasImage={this.props.img.petronasImage} /> */}
+        <CareerOverview />
         <hr className="page-break" />
-        <Two />
+        <ResumePortfolioLink />
         <hr className="page-break" />
-        <Three />
-        <Four />
+        <BlogLink />
+        <TechStackOverview />
       </Layout>
     )
   }

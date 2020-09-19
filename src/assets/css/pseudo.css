@@ -1,91 +1,91 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-.photo{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: block;
+.photo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
 }
 
 .photo img.portrait-frame {
-    width: 150px;
-    height: 150px;
-    overflow: hidden;
-    object-fit: cover;
-    filter: grayscale(100%) contrast(120%);
-    box-shadow: 10px 15px 25px 0 rgba(0,0,0,.2);
-    display: block;
-    transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
-    margin-top: -10px;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  object-fit: cover;
+  filter: grayscale(100%) contrast(120%);
+  box-shadow: 10px 15px 25px 0 rgba(0, 0, 0, 0.2);
+  display: block;
+  transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  margin-top: -10px;
 }
 
 .photo:hover img.portrait-frame {
-    box-shadow: 1px 1px 10px 0 rgba(0,0,0,.1);
+  box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.1);
 }
 
 .photo .glow-wrap {
-    overflow: hidden;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    margin-top: -10px;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  margin-top: -10px;
 }
 
 .photo .glow {
-    display: block;
-    position:absolute;
-    width: 40%;
-    height: 200%;
-    background: rgba(255,255,255,.2);
-    top: 0;
-    filter: blur(5px);
-    transform: rotate(45deg) translate(-450%, 0);
-    transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 200%;
+  background: rgba(255, 255, 255, 0.2);
+  top: 0;
+  filter: blur(5px);
+  transform: rotate(45deg) translate(-450%, 0);
+  transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
-.img.portrait-frame:hover .glow{
-    transform: rotate(45deg) translate(450%, 0);
-    transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+.img.portrait-frame:hover .glow {
+  transform: rotate(45deg) translate(450%, 0);
+  transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
 .img.portrait-frame:hover img.portrait-frame,
-.img.portrait-frame:hover .glow-wrap{
-    margin-top: 0;
+.img.portrait-frame:hover .glow-wrap {
+  margin-top: 0;
 }
 
 h1.portrait-frame {
-    position: absolute;
-    z-index: 1;
-    transform: translate(-25%, -65%);
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    line-height: 1.2;
+  position: absolute;
+  z-index: 1;
+  transform: translate(-25%, -65%);
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  line-height: 1.2;
 }
 
-#author{
-    font-family: Helvetica, Arial;
-    text-transform: uppercase;
-    font-size: 14px;
-    text-decoration: none;
-    position: fixed;
-    bottom: 25px;
-    left: 50%;
-    transform: translateX(-50%);
-    color: #888;
+#author {
+  font-family: Helvetica, Arial;
+  text-transform: uppercase;
+  font-size: 14px;
+  text-decoration: none;
+  position: fixed;
+  bottom: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #888;
 }
 
-#author:hover{
-    color: #111;
+#author:hover {
+  color: #111;
 }
 
 .transition-section {
-    clip-path: polygon(50% 99%,0 0,100% 0);
-    background-color: #222;
-    z-index: -1;
-    position: absolute;
-    opacity: 0.5;
+  clip-path: polygon(50% 99%, 0 0, 100% 0);
+  background-color: #222;
+  z-index: -1;
+  position: absolute;
+  opacity: 0.5;
 }
 
 .pseudo-body ::before,
@@ -109,59 +109,67 @@ h1.portrait-frame {
 }
 
 .pseudo-span {
-    font-family: 'Maitree', serif;
-    color:whitesmoke;
-    align-items: center;
-    /*text-shadow: 6px 6px 0px rgba(20, 1, 1, 0.616);*/
+  font-family: 'Maitree', serif;
+  color: whitesmoke;
+  align-items: center;
+  /*text-shadow: 6px 6px 0px rgba(20, 1, 1, 0.616);*/
 }
 
-.home-title .pseudo-span{
-    position: relative;
-    overflow: hidden;
-    display: block;
-    line-height: 1.2;
+.home-title .pseudo-span {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  line-height: 1.2;
 }
 
-.home-title .pseudo-span::after{
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    background: white;
-    animation: a-ltr-after 2s cubic-bezier(.77,0,.18,1) forwards;
-    transform: translateX(-101%);
+.home-title .pseudo-span::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  animation: a-ltr-after 2s cubic-bezier(0.77, 0, 0.18, 1) forwards;
+  transform: translateX(-101%);
 }
 
-.home-title .pseudo-span::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    background: var(--bg-color);
-    animation: a-ltr-before 2s cubic-bezier(.77,0,.18,1) forwards;
-    transform: translateX(0);
+.home-title .pseudo-span::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--bg-color);
+  animation: a-ltr-before 2s cubic-bezier(0.77, 0, 0.18, 1) forwards;
+  transform: translateX(0);
 }
 
 .home-title .pseudo-span:nth-of-type(1)::before,
-.home-title .pseudo-span:nth-of-type(1)::after{
-    animation-delay: 1s;
+.home-title .pseudo-span:nth-of-type(1)::after {
+  animation-delay: 1s;
 }
 
 .home-title .pseudo-span:nth-of-type(2)::before,
-.home-title .pseudo-span:nth-of-type(2)::after{
-    animation-delay: 1.5s;
+.home-title .pseudo-span:nth-of-type(2)::after {
+  animation-delay: 1.5s;
 }
 
-@keyframes a-ltr-after{
-    0% {transform: translateX(-100%)}
-    100% {transform: translateX(101%)}
+@keyframes a-ltr-after {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(101%);
+  }
 }
 
-@keyframes a-ltr-before{
-    0% {transform: translateX(0)}
-    100% {transform: translateX(200%)}
+@keyframes a-ltr-before {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(200%);
+  }
 }

@@ -1,139 +1,151 @@
 .flip-card {
-    margin: 0;
-    padding: 0;
-    font-family: 'Josefin Sans', sans-serif;
-    background-color: #000000;
-    a: {
-        color: #ffffff;
-        text-decoration: none;
-    }
-    position: absolute;
-    top: 50%;
-    height: 200px;
-    width: 150px;
-    transform: translate(-50%, -50%);
-    transform-style: preserve-3d;
-    perspective: 600px;
-    transition: .5s;
-    &:hover .flip-card-front {
-        transform: rotateX(-180deg);
-    }
+  margin: 0;
+  padding: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #000000;
+  a: {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  position: absolute;
+  top: 50%;
+  height: 200px;
+  width: 150px;
+  transform: translate(-50%, -50%);
+  transform-style: preserve-3d;
+  perspective: 600px;
+  transition: 0.5s;
+  &:hover .flip-card-front {
+    transform: rotateX(-180deg);
+  }
 
-    &:hover .flip-card-back {
-        transform: rotateX(0deg);
-    }
+  &:hover .flip-card-back {
+    transform: rotateX(0deg);
+  }
 }
 
 .flip-card-front {
-    height: 100%;
-    width: 100%;
-    background-image: url('../images/Portfolio-Profile-Pic.jpg');
-    background-position: 50% 50%;
-    background-size: cover;
-    position: absolute;
-    background-color: #000000;
-    backface-visibility: hidden;
-    transform: rotateX(0deg);
-    transition: .5s;
+  height: 100%;
+  width: 100%;
+  background-image: url('../images/Portfolio-Profile-Pic.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  position: absolute;
+  background-color: #000000;
+  backface-visibility: hidden;
+  transform: rotateX(0deg);
+  transition: 0.5s;
 }
 
 .flip-card-back {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    font-family: 'Josefin Sans', sans-serif;
-    backface-visibility: hidden;
-    transform: rotateX(180deg);
-    transition: .5s;
-    color: #000000;
-    text-align: center;
-    h2 {
-        margin: 60% auto 35% auto;
-        font-size: 26px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  font-family: 'Josefin Sans', sans-serif;
+  backface-visibility: hidden;
+  transform: rotateX(180deg);
+  transition: 0.5s;
+  color: #000000;
+  text-align: center;
+  h2 {
+    margin: 60% auto 35% auto;
+    font-size: 26px;
 
-        span {
-            font-size: 20px;
-        }
+    span {
+      font-size: 20px;
     }
-    a {
-        height: 20px;
-        width: 20px;
-        padding: 5px 5px;
-        border-radius: 4px;
-        line-height: 20px;
-        color: #ffffff;
-        text-decoration: none;
-        &:hover {
-            color: #000000;
-            background-color: #fff;
-        }
+  }
+  a {
+    height: 20px;
+    width: 20px;
+    padding: 5px 5px;
+    border-radius: 4px;
+    line-height: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    &:hover {
+      color: #000000;
+      background-color: #fff;
     }
+  }
 }
 
 #social-sidebar {
-	right: 0;
-	position: fixed;
-	top: 30%;
+  right: 0;
+  position: fixed;
+  top: 30%;
 }
-#social-sidebar li:first-child a { border-top-right-radius: 5px; }
-#social-sidebar li:last-child a { border-bottom-right-radius: 5px; }
- 
+#social-sidebar li:first-child a {
+  border-top-right-radius: 5px;
+}
+#social-sidebar li:last-child a {
+  border-bottom-right-radius: 5px;
+}
+
 #social-sidebar a {
-	background: rgba(0, 0, 0, .7);
-	color: #fff;
-    text-decoration: none;
-	display: block;
-	height: 50px;
-	width: 50px;  
-	font-size: 24px;
-	line-height: 50px;
-	position: relative;
-	text-align: center;
-    cursor: pointer;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  height: 50px;
+  width: 50px;
+  font-size: 24px;
+  line-height: 50px;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
 }
 #social-sidebar a:hover span {
-	left: 120%;
-	opacity: 1;
+  left: 120%;
+  opacity: 1;
 }
 #social-sidebar a span {
-  font: 12px "Open Sans", sans-serif;
+  font: 12px 'Open Sans', sans-serif;
   text-transform: uppercase;
-	border-radius: 3px;
-	line-height: 24px;
-	left: -100%;
-	margin-top: -16px;
-	opacity: 0;
-	padding: 4px 8px;
-	position: absolute;
-	transition: opacity .3s, left .4s;
-	top: 50%;
-	z-index: -1;
+  border-radius: 3px;
+  line-height: 24px;
+  left: -100%;
+  margin-top: -16px;
+  opacity: 0;
+  padding: 4px 8px;
+  position: absolute;
+  transition: opacity 0.3s, left 0.4s;
+  top: 50%;
+  z-index: -1;
 }
- 
+
 #social-sidebar a span:before {
-	content: "";
-	display: block;
-	height: 8px;
+  content: '';
+  display: block;
+  height: 8px;
   width: 8px;
-	left: -4px;
-	margin-top: -4px;
-	position: absolute;
-	top: 50%;
-	transform: rotate(45deg);
+  left: -4px;
+  margin-top: -4px;
+  position: absolute;
+  top: 50%;
+  transform: rotate(45deg);
 }
- 
-#social-sidebar a[class*="twitter"]:hover,
-#social-sidebar a[class*="twitter"] span,
-#social-sidebar a[class*="twitter"] span:before {background: #00aced;}
- 
-#social-sidebar a[class*="facebook"]:hover,
-#social-sidebar a[class*="facebook"] span,
-#social-sidebar a[class*="facebook"] span:before {background: #3B5998;}
- 
-#social-sidebar a[class*="github"]:hover,
-#social-sidebar a[class*="github"] span,
-#social-sidebar a[class*="github"] span:before {background: #0e0a08;}
- 
-#social-sidebar a[class*="linkedin"]:hover,
-#social-sidebar a[class*="linkedin"] span,
-#social-sidebar a[class*="linkedin"] span:before {background: #30a2b1;}
+
+#social-sidebar a[class*='twitter']:hover,
+#social-sidebar a[class*='twitter'] span,
+#social-sidebar a[class*='twitter'] span:before {
+  background: #00aced;
+}
+
+#social-sidebar a[class*='facebook']:hover,
+#social-sidebar a[class*='facebook'] span,
+#social-sidebar a[class*='facebook'] span:before {
+  background: #3b5998;
+}
+
+#social-sidebar a[class*='github']:hover,
+#social-sidebar a[class*='github'] span,
+#social-sidebar a[class*='github'] span:before {
+  background: #0e0a08;
+}
+
+#social-sidebar a[class*='linkedin']:hover,
+#social-sidebar a[class*='linkedin'] span,
+#social-sidebar a[class*='linkedin'] span:before {
+  background: #30a2b1;
+}
