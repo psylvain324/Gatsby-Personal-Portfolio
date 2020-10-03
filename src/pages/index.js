@@ -7,8 +7,6 @@ import CareerOverview from '../components/CareerOverview'
 import ResumePortfolioLink from '../components/ResumePortfolioLink'
 import TechStackOverview from '../components/TechStackOverview'
 import BlogLink from '../components/BlogLink'
-import CustomCSS from '../assets/css/custom.css';
-import CustomSCSS from '../assets/scss/custom.scss';
 
 class Home extends React.Component {
   render() {

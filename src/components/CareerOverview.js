@@ -1,29 +1,35 @@
+/* eslint-disable no-unused-vars */
 import React from 'react'
-import { graphql, useStaticQuery } from 'gatsby'
 import { Link as ScrollLink } from 'react-scroll'
 import Fade from 'react-reveal/Fade'
+import KLPic from '../assets/images/Petronas.jpg'
 import Img from 'gatsby-image'
+import { graphql, useStaticQuery } from 'gatsby'
+import SocialSideBar from '../components/SocialSideBar';
 
-const data = useStaticQuery(
-  graphql`
-    query {
-      Petronas: file(relativePath: { eq: "Petronas.jpg" }) {
-        childImageSharp {
-          fluid(maxWidth: 1240) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-    }
-  `
-)
+// const data = useStaticQuery(
+//   graphql`
+//     query {
+//       Petronas: file(relativePath: { eq: "Petronas.jpg" }) {
+//         childImageSharp {
+//           fluid(maxWidth: 1240) {
+//             ...GatsbyImageSharpFluid
+//           }
+//         }
+//       }
+//     }
+//   `
+// )
 const CareerOverview = () => (
   <section
     id="one"
     className="spotlight style1 bottom inactive"
   >
-    <span className="image fit main">
+    {/* <span className="image fit main">
       <Img fluid={data.Petronas.childImageSharp.fluid} alt="" />
+    </span> */}
+    <span className="image fit main">
+      <img src={KLPic} alt="" />
     </span>
     <Fade right big>
       <div className="content">

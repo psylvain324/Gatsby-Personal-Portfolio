@@ -1,6 +1,9 @@
+/* eslint-disable no-unused-vars */
 import React from 'react'
 import { Link as ScrollLink } from 'react-scroll'
 import LinkButton from '../components/LinkButton'
+import CustomStyle from '../assets/css/custom.css'
+import CustomStyles from '../assets/scss/custom.scss'
 
 const Banner = () => (
   <section className="custom-header" id="banner">
